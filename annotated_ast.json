@@ -1,0 +1,152 @@
+{
+    "children": [
+        {
+            "children": [],
+            "type": "MAIN",
+            "value": "main"
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "type": "IDENTIFIER",
+                    "value": "int"
+                },
+                {
+                    "annotation": "int",
+                    "children": [],
+                    "type": "NAME",
+                    "value": "i"
+                }
+            ],
+            "type": "Statement",
+            "value": ""
+        },
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "annotation": "int",
+                            "children": [],
+                            "type": "NAME",
+                            "value": "i"
+                        },
+                        {
+                            "children": [],
+                            "type": "REAL_OP",
+                            "value": "="
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "type": "DIGIT",
+                                    "value": "0"
+                                }
+                            ],
+                            "type": "SimpleExpr",
+                            "value": ""
+                        }
+                    ],
+                    "type": "Assignment",
+                    "value": ""
+                }
+            ],
+            "type": "Statement",
+            "value": ""
+        },
+        {
+            "children": [
+                {
+                    "children": [],
+                    "type": "WHILE",
+                    "value": "while"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "annotation": "int",
+                                    "children": [],
+                                    "type": "NAME",
+                                    "value": "i"
+                                },
+                                {
+                                    "children": [],
+                                    "type": "OP",
+                                    "value": "<"
+                                },
+                                {
+                                    "children": [],
+                                    "type": "DIGIT",
+                                    "value": "10"
+                                }
+                            ],
+                            "type": "BinaryExpr",
+                            "value": ""
+                        }
+                    ],
+                    "type": "SimpleExpr",
+                    "value": ""
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "annotation": "int",
+                                    "children": [],
+                                    "type": "NAME",
+                                    "value": "i"
+                                },
+                                {
+                                    "children": [],
+                                    "type": "REAL_OP",
+                                    "value": "="
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "annotation": "int",
+                                                    "children": [],
+                                                    "type": "NAME",
+                                                    "value": "i"
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "type": "OP",
+                                                    "value": "+"
+                                                },
+                                                {
+                                                    "children": [],
+                                                    "type": "DIGIT",
+                                                    "value": "1"
+                                                }
+                                            ],
+                                            "type": "BinaryExpr",
+                                            "value": ""
+                                        }
+                                    ],
+                                    "type": "SimpleExpr",
+                                    "value": ""
+                                }
+                            ],
+                            "type": "Assignment",
+                            "value": ""
+                        }
+                    ],
+                    "type": "Statement",
+                    "value": ""
+                }
+            ],
+            "type": "Statement",
+            "value": ""
+        }
+    ],
+    "type": "S",
+    "value": ""
+}

@@ -1,11 +1,7 @@
 main() {
-/*
-     int a;
-    float b;
-    float c;
-    bool gg;
-    double x;
-    a= a+(2*2);
-    x=2;
-
+    int i;
+    i = 0;
+    while (i < 10) {
+        i = i + 1;
+    }
 }
