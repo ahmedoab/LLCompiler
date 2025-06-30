@@ -1,0 +1,11 @@
+main() {
+/*
+     int a;
+    float b;
+    float c;
+    bool gg;
+    double x;
+    a= a+(2*2);
+    x=2;
+
+}
